@@ -1,0 +1,1968 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital@1&family=Yanone+Kaffeesatz:wght@300&display=swap');
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital@1&family=Anton&family=Yanone+Kaffeesatz:wght@300&display=swap');
+
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+
+/*@media screen and (max-width: 1280px) { div.container {width: 1200px;} }
+@media screen and (max-width: 1140px) { div.container {width: 1024px;} } 
+@media screen and (max-width: 992px) {  {width: 970px;} }*/
+
+
+
+
+nav{
+	width: 100%;
+	height: 100vh;
+	
+	
+}
+
+body.background-sanpid {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+	background-color: rgb(22, 2, 2);
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+    background-image: url(../img/darck-back.jpg);
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: top center;
+	overflow-x: hidden;
+
+	
+}
+
+
+
+
+
+html {
+	scroll-behavior: smooth;
+}
+
+.container{
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  border: 2px;
+  color: aqua;
+ 
+  }
+
+
+
+
+
+  .baner-lozung-1{
+	  font-family: Alegreya;
+  }
+   .baner-lozung-2{
+	  font-family: Alegreya;
+  }
+   .baner-lozung-3{
+	  font-family: Alegreya;
+  }
+   .baner-lozung-4{
+	  font-family: Alegreya;
+  }
+
+.container-fluid {
+	display: flex;
+  justify-content: space-around;
+	flex-direction: column;
+}
+
+.nav-best-deals{
+	font-family: Yanone Kaffeesatz;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: auto;
+	color: rgb(126, 184, 69);
+}
+
+.menu-item-1{
+	color: #c8cde7;
+	font-family: Yanone Kaffeesatz;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: auto;
+	
+}
+
+.nav-news{
+    font-family: Yanone Kaffeesatz;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: auto;
+	color: rgb(124, 124, 182);
+}
+
+.nav-sss{
+font-family: Yanone Kaffeesatz;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: auto;
+	color: rgb(104, 104, 107);
+}
+
+.nav-name-main{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 26px;
+	margin-top: auto;
+	color: #c8cde7;
+	font-family: Muli;
+	text-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+}
+
+a.nav-link{
+	color: #c4e4f7;
+}
+
+.main-slide-text{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: rgb(219, 219, 157);
+	margin-left: auto;
+	margin-top: auto;
+	font-family: Roboto;
+	font-size: 30px;
+	
+}
+
+.sidebar {
+  height: 100%;
+  width: 35%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: transform 0.5s ease-in-out;
+}
+
+.sidebar > div {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-family: Muli;
+}
+
+.sidebar h1 {
+  font-size: 33px;
+  margin-bottom: 10px;
+  margin-top: -30px;
+
+  font-family: Muli;
+	font-style: normal;
+	font-weight: bolder;
+	line-height: 22px;
+	
+	color: white;
+	text-decoration: none;
+}
+
+.main-slide {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 35%;
+  width: 65%;
+  transition: transform 0.5s ease-in-out;
+}
+
+.main-slide > div {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
+  width: 100%;
+}
+
+button {
+  background-color: rgb(211, 42, 42);
+  border: none;
+  color: #aaa;
+  cursor: pointer;
+  font-size: 22px;
+  padding: 10px;
+}
+
+button:hover {
+  color: #222;
+}
+
+button:focus {
+  outline: none;
+}
+
+.container .controls button {
+  position: absolute;
+  left: 35%;
+  top: 50%;
+  z-index: 100;
+}
+
+
+.main-name{
+	font-size: 58px;
+   font-family: Anton;
+	font-style: normal;
+	font-weight: bolder;
+	line-height: 22px;
+	margin-top: 17px;
+	color: white;
+	text-decoration: none;
+}
+
+
+.loyal-program{
+font-size: 28px;
+   font-family: Anton;
+	font-style: normal;
+	font-weight: bolder;
+	line-height: 28px;
+	color: white;
+	text-decoration: none;
+}
+
+.card-description-name{
+	font-size: 24px;
+   font-family: Muli;
+	font-style: normal;
+	font-weight: bolder;
+	line-height: 22px;
+	color: white;
+	text-decoration: none;
+}
+
+
+
+
+.more{
+	font-size: 15px;
+   font-family: Muli;
+	font-style: normal;
+	font-weight: bolder;
+	line-height: 22px;
+	color: white;
+	text-decoration: none;
+}
+
+.container .controls .down-button {
+  transform: translateX(-100%);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.container .controls .up-button {
+  transform: translateY(-100%);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.navbar-toggler-icon{
+  margin-left: auto;
+}
+
+
+.container-one{
+  width: 100%;
+  display: flex;
+  padding: 0 20px;
+  background-color: #222;
+  margin-top: 5px;
+ 
+}
+
+.offcanvas-header{
+	color: #b3beeb;
+	background-color: #252B42;
+}
+.offcanvas-title{
+	display: flex;
+	align-items: center;
+	margin-left: 30px;
+	font-family:  Muli;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 32px;
+	height: 90px;
+	color: #e4e7f5;
+	
+}
+
+.offcanvas-body{
+	background-color: #222;
+}
+
+.slide{
+  height: 80vh;
+  border-radius: 20px;
+  margin: 10px;
+  cursor: pointer;
+  color: #fff;
+  flex: 1;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  transition: all 500ms ease-in-out;
+
+}
+
+
+
+.slide h3{
+  position: absolute;
+  font-size: 24px;
+  bottom: 20px;
+  left: 20x;
+  margin: 0;
+  opacity: 0;
+
+}
+
+.slide.active{
+  flex: 10;
+
+}
+
+.slide.active h3{
+  opacity: 1;
+  transition: opacity 0.3s ease-in;
+}
+
+
+.card{
+  display: flex;
+  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-around;
+  align-items: stretch;
+  background-color: #222;
+  
+}
+
+
+
+
+
+
+
+.choosen-deals{
+	display: flex;
+	justify-content: center;
+	margin-top: -20px;
+	margin-bottom: 15px;
+	padding-top: 22px;
+	font-family:  Muli;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 32px;
+	height: 90px;
+	color: #a1c7f8;
+	background: linear-gradient(221.87deg, #01010f 1%, #00002b 128%);
+	opacity: 1;
+
+}
+
+
+.choosen-deals-2{
+    display: flex;
+	justify-content: center;
+	margin-top: auto;
+	margin-bottom: 15px;
+	padding-top: 22px;
+	font-family:  Muli;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 32px;
+	height: 90px;
+	color: #a1c7f8;
+	background: linear-gradient(221.87deg, #01010f 1%, #00002b 128%);
+	/*border: 1px solid #23A6F0;*/
+}
+
+.choosen-deals-3{
+	display: flex;
+	justify-content: center;
+	margin-top: auto;
+	margin-top: 70px;
+	padding-top: 22px;
+	font-family:  Muli;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 32px;
+	height: 90px;
+	color: #a1c7f8;
+	background: linear-gradient(221.87deg, #01010f 1%, #00002b 128%);
+	/*border: 1px solid #23A6F0;*/
+}
+
+
+.choosen-deals-4{
+	display: flex;
+	justify-content: center;
+	margin-top: auto;
+	margin-top: auto;
+	padding-top: 22px;
+	font-family:  Muli;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 32px;
+	height: 90px;
+	color: #a1c7f8;
+    background: linear-gradient(221.87deg, #01010f 1%, #00002b 128%);
+	/*border: 1px solid #23A6F0;*/
+}
+
+.choosen-deals-5{
+	display: flex;
+	justify-content: center;
+	margin-top: auto;
+	margin-top: auto;
+	padding-top: 22px;
+	font-family:  Muli;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 32px;
+	height: 90px;
+	color: #a1c7f8;
+    background: linear-gradient(221.87deg, #01010f 1%, #00002b 128%);
+	/*border: 1px solid #23A6F0;*/
+}
+
+.choosen-deals-main{
+	display: flex;
+	justify-content: center;
+	margin-top: auto;
+	margin-top: 70px;
+	padding-top: 22px;
+	font-family:  Muli;
+	font-style: normal;
+	font-weight: bolder;
+	font-size: 32px;
+	line-height: 32px;
+	height: 90px;
+	color: #a1c7f8;
+	background: linear-gradient(221.87deg, #01010f 1%, #00002b 128%);
+
+}
+
+.choosen-deals-one{
+	display: flex;
+	justify-content: center;
+	margin-top: auto;
+	margin-top: 70px;
+	padding-top: 22px;
+	font-family:  Muli;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 32px;
+	height: 90px;
+	color: #a1c7f8;
+background: linear-gradient(221.87deg, #00001a 1%, #00002b 128%);
+
+}
+
+
+.special-menu {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	font-family: Muli;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	margin-top: 80px;
+	letter-spacing: 0.2px;
+	color: #23A6F0;
+	text-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+}
+
+.complex-smooth {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 25px;
+	background: #220606;
+	border: 1px solid #23A6F0;
+	box-sizing: border-box;
+	box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.84);
+	border-radius: 5px;
+	-webkit-transition: -webkit-transform .8s ease-in-out;
+	transition: transform .8s ease-in-out;
+}
+
+.complex-smooth:hover {
+	transform: translateY(-5px)scale(0.99);
+}
+
+div .lunch {
+	display: grid;
+	flex-direction: row;
+}
+
+.complex-lunch {
+	width: 90px;
+	height: 32px;
+	left: calc(50% - 90px/2);
+	top: 50px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 32px;
+	letter-spacing: 0.1px;
+	white-space: nowrap;
+	margin: auto;
+}
+
+.eat-and-enjoy {
+	width: 116px;
+	height: 48px;
+	left: calc(50% - 116px/2);
+	margin: auto;
+	top: 117px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 24px; 
+	text-align: center;
+	color: grey;
+}
+
+.word {
+	width: 116px;
+	height: 48px;
+	top: 117px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+	color: #23A6F0;
+	margin: auto;
+	margin: auto;
+	letter-spacing: 0.1px;
+}
+
+.price {
+	font-family: Yanone Kaffeesatz;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	margin: auto;
+	color: #23A6F0;
+}
+
+.symbol {
+	right: 68.57%;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	line-height: 24px;
+	color: #23A6F0;
+	margin: auto;
+	margin: auto;
+}
+
+.word-2 {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 24px;
+	color: #8EC2F2;
+	margin: auto;
+	margin: auto;
+}
+
+
+/*ul {
+    list-style: none;
+  }
+  
+  ul li:before {
+    content: '✓';
+    color: blue;
+    
+ }
+
+ .tick{
+     color: blue;
+     margin-left: -20px;
+ }
+
+
+ .symbol-2{
+ }*/
+
+.details {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 15px 40px;
+	background: #E74040;
+	border-radius: 5px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 22px;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+}
+
+.details-word {
+	left: 39.23%;
+	right: 39.23%;
+	top: 28.85%;
+	bottom: 28.85%;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 22px;
+	text-align: center;
+	color: white
+}
+
+.small-dinner-smooth {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 25px;
+	top: 0px;
+	background: #050916;
+	border: 1px solid #23A6F0;
+	box-sizing: border-box;
+	border-radius: 10px;
+	-webkit-transition: -webkit-transform .8s ease-in-out;
+	transition: transform .8s ease-in-out;
+}
+
+.small-dinner-smooth:hover {
+	transform: translateY(-5px)scale(0.99);
+}
+
+.dinner {
+	display: grid;
+	flex-direction: row;
+}
+
+.small-dinner-lozung {
+	width: 194px;
+	height: 32px;
+	left: calc(50% - 194px/2);
+	top: 70px;
+	font-family: Yanone Kaffeesatz;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 32px;
+	color: #FFFFFF;
+	margin-left: 25px;
+}
+
+.small-dinner-with-friends {
+	width: 216px;
+	height: 48px;
+	margin-left: 15px;
+	top: 137px;
+	font-family: Yanone Kaffeesatz;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+	color: gray;
+}
+
+.word-no-alcohol-2 {
+	width: 216px;
+	height: 48px;
+	margin-top: -30px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+	color: #23A6F0;
+	margin: auto;
+}
+
+.price-2 {
+	font-family: Yanone Kaffeesatz;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 57px;
+	color: #23A6F0;
+	margin-left: 55px;
+}
+
+.symbol-2 {
+	font-family: Yanone Kaffeesatz;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	line-height: 24px;
+	color: #23A6F0;
+	margin-left: 155px;
+	margin: auto;
+}
+
+.word-only-2 {
+	margin-top: -70px;
+	margin: auto;
+	font-family: Yanone Kaffeesatz;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 24px;
+	color: #8EC2F2;
+}
+
+.details-2 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: #E74040;
+	border-radius: 5px;
+	font-family: Yanone Kaffeesatz;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 22px;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+}
+
+.details-word-2 {
+	font-family: Yanone Kaffeesatz;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 22px;
+	margin-top: -3px;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.eat-and-game-smooth {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-left: auto;
+	padding: 25px;
+	background: linear-gradient(221.87deg, #0b090c 1%, #09050e 128%);
+	box-sizing: border-box;
+	width: 310px;
+	height: auto;
+	border-radius: 5px;
+	box-shadow: 0px 7px 29px rgba(245, 82, 82, 0.84);
+	-webkit-transition: -webkit-transform .8s ease-in-out;
+	transition: transform .8s ease-in-out;
+}
+
+.eat-and-game-smooth:hover {
+	transform: translateX(-5px)scale(0.99);
+}
+
+.game-class {
+	display: grid;
+	flex-direction: row;
+}
+
+.eat-and-game-lozung {
+	font-family: Mule;
+	font-style: normal;
+	font-weight: bolder;
+	font-size: 30px;
+	line-height: 32px;
+	color: #f0edec;
+	margin: auto;
+	white-space: nowrap;
+	padding: 20px;
+}
+
+.you-can-try-your-luck {
+	font-family: Yanone Kaffeesatz;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: auto;
+	color: rgb(104, 104, 107);
+	margin: auto;
+}
+
+.word-aclohol-included {
+	font-family: Yanone Kaffeesatz;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 24px;
+	color: #21A6DF;
+	margin: auto;
+	margin-top: auto;
+	white-space: nowrap;
+}
+
+.price-3 {
+	font-family: Yanone Kaffeesatz;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 57px;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 42px;
+	line-height: 57px;
+	color: #f0edec;
+	margin: auto;
+}
+
+.symbol-3 {
+	font-family: Yanone Kaffeesatz;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 24px;
+	margin-top: -60px;
+	margin: auto;
+	color: #23A6F0;
+}
+
+.word-only-3 {
+	font-family: Yanone Kaffeesatz;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 24px;
+	color: #f03b23;
+	margin-top: -70px;
+	margin: auto;
+}
+
+.details-3 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 15px 40px;
+	height: 53px;
+	width: 180px;
+	margin-left: 40px;
+	background: #E74040;
+	border-radius: 5px;
+}
+
+.details-word-3 {
+	font-family: Yanone Kaffeesatz;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 22px;
+	color: #FFFFFF;
+	margin-top: -2px;
+}
+
+.list {
+	font-family: Yanone Kaffeesatz;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 17px;
+	line-height: 30px;
+	color: #252B42;
+}
+
+.list-2 {
+	font-family: Yanone Kaffeesatz;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 17px;
+	line-height: 30px;
+	color: #FFFFFF;
+}
+
+.list-3 {
+	font-family: Yanone Kaffeesatz;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: auto;
+	color: rgb(104, 104, 107);
+}
+
+li {
+	list-style-type: none;
+}
+
+.details {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+	background: #581919;
+	width: 70px;
+	margin: auto;
+	border-radius: 5px;
+	font-family: Muli;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 20px;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+}
+
+
+
+
+.third-section{
+  padding-top: 40px;
+  background: linear-gradient(221.87deg, #0b090c 1%, #09050e 128%);
+  box-shadow: 0px 13px 19px rgba(10, 10, 10, 0.84);
+}
+
+.four-section{
+  padding-top: 40px;
+  background: linear-gradient(221.87deg, #0b090c 1%, #09050e 128%);
+  box-shadow: 0px 13px 19px rgba(10, 10, 10, 0.84);
+}
+
+.five-section{
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(221.87deg, #0b090c 1%, #09050e 128%);
+  box-shadow: 0px 13px 19px rgba(10, 10, 10, 0.84);
+  opacity: 0.9;
+}
+
+.sixt-section{
+  padding-top: 40px;
+  background: linear-gradient(221.87deg, #0b090c 1%, #09050e 128%);
+  box-shadow: 0px 13px 19px rgba(10, 10, 10, 0.84);
+}
+
+.about-san-pid{
+	height: 1900px;
+	background: linear-gradient(221.87deg, #01010f 1%, #00002b 128%);
+    box-shadow: 0px 13px 19px rgba(10, 10, 10, 0.84);
+	opacity: 0.9;
+}
+
+.about-deals{
+
+	background: linear-gradient(221.87deg, #00001a 1%, #00002b 128%);
+    box-shadow: 0px 13px 19px rgba(10, 10, 10, 0.84);
+	
+}
+
+.navbar-toggler{
+	color: #fff;
+}
+
+.navbar{
+	background: linear-gradient(221.87deg, #01010f 1%, #00002b 128%);
+	width: 100%;
+	margin: auto;
+	
+	
+}
+
+.logo{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.facebook-link-smooth {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 60px;
+	-webkit-transition: -webkit-transform .8s ease-in-out;
+	transition: transform .8s ease-in-out;
+}
+
+.facebook-link-smooth:hover {
+	transform: translateY(4px)scale(0.9/*9*/
+	);
+	/*-webkit-transform: rotate(360deg);
+          transform: rotate(360deg);*/
+}
+
+.facebook-link-smooth-one{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 20px;
+}
+
+.facebook-link-smooth-two{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 180px;
+	margin-bottom: 150px;
+	
+	
+}
+
+.facebook-link-smooth:hover {
+	-webkit-transition: -webkit-transform .8s ease-in-out;
+	transition: transform .8s ease-in-out;
+}
+
+.card-stores{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+width: 566px;
+height: 361px;
+top: 0px;
+margin: auto;
+margin-top: 80px;
+background: linear-gradient(221.87deg, #0b090c 1%, #09050e 128%);
+/*box-shadow: 0px 33px 19px rgba(0, 0, 0, 0.84);*/
+
+  
+}
+
+.card-stores-2{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+width: 566px;
+margin-left: auto;
+top: 0px;
+margin: auto;
+margin-top: 40px;
+background: linear-gradient(221.87deg, #512a64 1%, #09050e 128%);
+box-shadow: 0px 33px 19px rgba(0, 0, 0, 0.84);
+
+
+  
+}
+
+.card-text-2{
+	font-family: Muli;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 22px;
+	color: khaki;
+}
+
+
+.card-title-2{
+	color: #c4e4f7;
+}
+
+
+
+
+.ss-s-section{
+
+}
+
+
+.foto{
+	margin-left: auto;
+}
+
+
+.card-text{
+	font-family: Muli;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 22px;
+	color: khaki;
+}
+
+
+.card-title{
+	color: #c4e4f7;
+
+}
+
+
+.image-deal{
+	display: flex;
+	justify-content: center;
+	margin: auto;
+	margin-left: auto;
+box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.84);
+}
+
+.image-deal-2{
+	display: flex;
+	justify-content: center;
+	margin: auto;
+	margin-left: auto;
+box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.84);
+}
+
+.image-deal-3{
+	display: flex;
+	justify-content: center;
+	margin: auto;
+	margin-left: auto;
+box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.84);
+}
+
+.go{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 13px 40px;
+	background: #E74040;
+	border-radius: 5px;
+	font-family: Muli;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 22px;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+
+
+
+}
+
+
+.btn-group{
+
+margin-top: 200px;
+
+
+}
+
+
+
+.buttons-bar{
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+
+	
+}
+
+.last-nav-item-sanpid{
+		color: #e9cece;
+	font-family: Yanone Kaffeesatz;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: auto;
+}
+
+.last-nav-item-prom{
+	font-family: Yanone Kaffeesatz;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: auto;
+	color: rgb(104, 104, 107);
+}
+
+.last-nav-item-rozetka{
+	font-family: Yanone Kaffeesatz;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: auto;
+	color: rgb(104, 104, 107);
+}
+
+.last-nav-item-contacts{
+		font-family: Yanone Kaffeesatz;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: auto;
+	color: rgb(104, 104, 107);
+}
+
+
+.burger-menu-items{
+	color: #8EC2F2;
+	font-family: Mule;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 26px;
+	margin-top: auto;
+}
+
+.btn-primary{
+	display: flex;
+	justify-content: center;
+	background-color:#E74040;
+	margin-left: auto;
+	font-family: Montserrat;
+	width: 100px;
+
+}
+
+.btn-outline-danger{
+	
+display: flex;
+justify-content: center;
+align-items: center;
+width: 200px;
+height: 50px;
+margin: auto;
+margin-top: 45px;
+	
+}
+
+
+.btn-danger{
+	display: flex;
+justify-content: center;
+align-items: center;
+width: 200px;
+height: 50px;
+margin: auto;
+
+}
+
+.btn-success{
+	display: flex;
+justify-content: center;
+align-items: center;
+height: 50px;
+margin: auto;
+width: 100px;
+margin-top: 30px;
+background-color: #E74040;
+
+}
+
+
+
+.btn-secondary{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	margin-left: auto;
+	margin: auto;
+	background-color: #0b090c;
+	
+}
+
+
+.girl-bonus{
+	display: flex;
+	justify-content: center;
+	margin: auto;
+	margin-left: auto;
+	margin-top: 120px;
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.84);
+    border-radius: 10px;
+	
+	
+}
+
+
+
+
+
+.bonus-section{
+	display: grid;
+	justify-content: center;
+	margin: auto;
+}
+
+
+
+
+.color-logo{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: auto;
+	margin-left: auto;
+	margin-top: 70px;
+}
+
+
+.footer-rorm {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	margin: auto;
+	border: 5px;
+}
+
+.input {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+	 box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.84);
+    border-radius: 10px;
+	background-color: #252B42;
+	margin-top: 30px;
+}
+
+.footer-button {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 15px 40px;
+	margin: auto;
+	margin-top: 40px;
+	background: #E74040;
+	border-radius: 5px;
+	font-family: Yanone Kaffeesatz;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 22px;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+}
+
+.placeholder-1 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: #ebe9fa;
+	opacity: 0.5;
+	 box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.84);
+    border-radius: 10px;
+}
+
+.placeholder-2 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color:  #ebe9fa;
+	opacity: 0.5;
+	 box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.84);
+    border-radius: 10px;
+}
+
+.placeholder-3 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: #ebe9fa;
+	opacity: 0.5;
+	 box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.84);
+    border-radius: 10px;
+}
+
+.placeholder-4 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color:  #ebe9fa;
+	opacity: 0.5;
+	 box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.84);
+    border-radius: 10px;
+}
+
+.your-name {
+	font-family:Yanone Kaffeesatz;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+}
+
+;
+.email {
+	font-family: Yanone Kaffeesatz;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+}
+
+;
+.date {
+	font-family: Yanone Kaffeesatz;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+}
+
+;
+.time {
+	font-family: Yanone Kaffeesatz;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+}
+
+;
+.book-now {
+	display: flex;
+}
+
+.btn-primary {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #E74040;
+	margin: auto;
+	font-family: Yanone Kaffeesatz;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 22px;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+	 box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.84);
+    border-radius: 10px;
+}
+
+.find-your-bonus {
+	display: flex;
+	justify-content: center;
+	margin-top: 70px;
+	font-family: Yanone Kaffeesatz;
+	font-style: normal;
+	font-weight: bolder;
+	font-size: 28px;
+	line-height: 32px;
+	color: #f15208;
+	margin-top: 60px;
+}
+
+.find-your-bonus-2{
+	font-size: 32px;
+   font-family: Muli;
+	font-style: normal;
+	font-weight: bolder;
+	line-height: 22px;
+	color: #f15208;
+	text-decoration: none;
+}
+
+
+
+
+	.our-projects-smooth {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 35px 40px;
+	background: #FFFFFF;
+	/*background:radial-gradient(#FFFFFF, #666363);*/
+	box-shadow: 0px 20px 19px rgba(0, 0, 0, 0.37);
+	
+}
+
+.our-projects-smooth:hover {
+	transform: translateY(-5px)scale(1.07);
+	-webkit-transition: -webkit-transform .8s ease-in-out;
+	transition: transform .8s ease-in-out;
+}
+
+.card-project-fraze {
+	color: #2A7CC7;
+	font-family: 'Montserrat';
+	font-weight: 500;
+	font-size: 17px;
+}
+
+.small-logo {
+	color: black;
+	font-size: 24px;
+	text-decoration: none;
+	margin-top: 30px;
+	font-family: 'Montserrat';
+	font-weight: 700;
+}
+
+
+/*2*/
+
+.our-projects-smooth-2 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 35px 40px;
+	background: #252B42;
+	 background:radial-gradient(#ECECEC, #8f4949);
+	box-shadow: 0px 20px 19px rgba(0, 0, 0, 0.37);
+	
+	
+	
+}
+
+.friends-smooth:hover {
+	transform: translateY(-8px)scale(1.07);
+	-webkit-transition: -webkit-transform .8s ease-in-out;
+	transition: transform .8s ease-in-out;
+}
+
+.card-project-fraze-2 {
+	color: #2A7CC7;
+	font-family: 'Montserrat';
+	font-weight: 500;
+	font-size: 17px;
+	white-space: nowrap;
+}
+
+.small-logo-2 {
+	color: #E74040;
+	font-size: 24px;
+	text-decoration: none;
+	margin-top: 30px;
+	font-family: 'Montserrat';
+	font-weight: 700;
+	white-space: nowrap;
+}
+
+
+/*3*/
+
+.our-projects-smooth-3 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 35px 40px;
+	background: #6e2a2a;
+	/*background:radial-gradient(#E74040, #080808);*/
+	box-shadow: 0px 20px 19px rgba(0, 0, 0, 0.37);
+	
+}
+
+.quality-of-food-smooth:hover {
+	transform: translateY(-5px)scale(1.07);
+	-webkit-transition: -webkit-transform .8s ease-in-out;
+	transition: transform .8s ease-in-out;
+}
+
+.small-logo-3 {
+	color: #FFFFFF;
+	font-size: 24px;
+	text-decoration: none;
+	margin-top: 30px;
+	font-family: 'Montserrat';
+	font-weight: 700;
+}
+
+.card-project-fraze-3 {
+	color: #FFFFFF;
+	font-family: 'Montserrat';
+	font-weight: 500;
+	font-size: 17px;
+	white-space: nowrap;
+}
+
+.gmaps{
+	display: flex;
+	justify-content: center;
+	margin: auto;
+	height: 100vh;
+	width: 100vw;
+	box-shadow: 0px 20px 19px rgba(0, 0, 0, 0.37);
+}
+
+.main-manu-buttons{
+	display: flex;
+	justify-content: space-around;
+	align-items: stretch;
+	
+
+}
+
+.buttons-menu{
+	display: flex;
+	justify-content: center;
+	margin-top: 200px;
+}
+
+.btn-outline-success{
+	color: rgb(104, 104, 107);
+	border-color: #E74040;
+}
+
+.director-image{
+	float:left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+	margin-left: auto;
+	margin-left: 30px;
+	margin-top: 120px;
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.84);
+    border-radius: 10px;
+	stop-opacity: initial;
+
+}
+
+.main-quater{
+	font-family: Alegreya;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	line-height: 40px;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+	margin-top: auto;
+	margin-top: 250px;
+	
+	
+}
+
+.accordion{
+	width: 300px;
+}
+
+.accordion-body{
+	background-color:  #252B42;
+}
+
+.accordion-text{
+color: #c4e4f7;
+}
+
+.main-accordion-text{
+	color: #dce0ec;
+}
+
+.about-brands-main{
+	display: flex;
+flex-direction: row;
+align-items: flex-start;
+justify-content: space-around;
+padding: 35px 20px;
+width: 328px;
+height: 139px;
+border: 1px solid #F2F2F2;
+box-sizing: border-box;
+border-radius: 2px;
+}
+
+.container-brands{
+	display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+margin-top: 80px;
+
+
+
+
+}
+
+.brand-image{
+margin-left: auto;
+margin-top: -20px;
+margin-left: 10px;
+}
+
+.brand-name{
+	margin-left: 5px;
+	margin-bottom: 60px;
+	margin-top: auto;
+	margin-bottom: auto;
+
+font-family: Yanone Kaffeesatz;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 34px;
+	line-height: 22px;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+}
+
+.brand-image-herz{
+margin-left: auto;
+margin-top: -20px;
+margin-left: -10px;
+}
+
+.brand-name-herz{
+	margin-left: 5px;
+	margin-bottom: 60px;
+	margin-top: auto;
+	margin-bottom: auto;
+
+font-family: Yanone Kaffeesatz;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 34px;
+	line-height: 22px;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+}
+
+
+.brand-image-biasi{
+margin-left: auto;
+margin-top: -20px;
+margin-left: -10px;
+}
+
+.brand-name-biasi{
+	margin-left: 5px;
+	margin-bottom: 60px;
+	margin-top: auto;
+	margin-bottom: auto;
+
+font-family: Yanone Kaffeesatz;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 34px;
+	line-height: 22px;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+}
+
+.brand-image-wolf{
+margin-left: auto;
+margin-top: -20px;
+margin-left: -10px;
+}
+
+.brand-name-wolf{
+	margin-left: 5px;
+	margin-bottom: 60px;
+	margin-top: auto;
+	margin-bottom: auto;
+
+font-family: Yanone Kaffeesatz;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 34px;
+	line-height: 22px;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+}
+
+.brand-image-grohe{
+margin-left: auto;
+margin-top: -20px;
+margin-left: -10px;
+}
+
+.brand-name-grohe{
+	margin-left: 5px;
+	margin-bottom: 60px;
+	margin-top: auto;
+	margin-bottom: auto;
+
+font-family: Yanone Kaffeesatz;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 34px;
+	line-height: 22px;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+}
+
+.brand-image-wavin{
+margin-left: auto;
+margin-top: -20px;
+margin-left: -10px;
+}
+
+.brand-name-wavin{
+	margin-left: 5px;
+	margin-bottom: 60px;
+	margin-top: auto;
+	margin-bottom: auto;
+
+font-family: Yanone Kaffeesatz;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 34px;
+	line-height: 22px;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+}
+
+.brand-image-mario{
+margin-left: auto;
+margin-top: -10px;
+margin-left: -10px;
+}
+
+.brand-name-mario{
+	margin-left: 5px;
+	margin-bottom: 60px;
+	margin-top: auto;
+	margin-bottom: auto;
+    font-family: Yanone Kaffeesatz;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 34px;
+	line-height: 22px;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+}
+
+.brand-image-raftec{
+margin-left: auto;
+margin-top: -20px;
+margin-left: -10px;
+}
+
+.brand-name-raftec{
+	margin-left: 5px;
+	margin-bottom: 60px;
+	margin-top: auto;
+	margin-bottom: auto;
+    font-family: Yanone Kaffeesatz;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 34px;
+	line-height: 22px;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+}
+
+.brand-image-marek{
+margin-left: auto;
+margin-top: -20px;
+margin-left: -10px;
+}
+
+.brand-name-marek{
+	margin-left: 5px;
+	margin-bottom: 60px;
+	margin-top: auto;
+	margin-bottom: auto;
+    font-family: Yanone Kaffeesatz;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 34px;
+	line-height: 22px;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+}
+
+.facebook-division-smooth, .instagram-division-smooth, .youtube-division-smooth, .linkedin-division-smooth, .twitter-division-smooth{
+	display: flex;
+	justify-content: center;
+	margin-top: 15px;
+	padding-top: 30px;
+	box-shadow: 0px 13px 19px rgba(247, 146, 146, 0.84);
+    border-radius: 10px;
+	width: 100px;
+	height: 100px;
+	
+	
+}
+
+.facebook-division-smooth:hover, .instagram-division-smooth:hover, .youtube-division-smooth:hover, .linkedin-division-smooth:hover, .twitter-division-smooth:hover{
+	transform: translateY(4px)scale(0.9/*9*/
+	);
+	/*-webkit-transform: rotate(360deg);
+          transform: rotate(360deg);*/
+}
+
+}
+
+.facebook{
+	display: flex;
+	justify-content: center;
+	margin-left: auto;
+	margin-left: 15px;
+	margin-top: 32px;
+}
+
+
+.go{
+	 font-family: Yanone Kaffeesatz;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 22px;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+}
+
+
+
